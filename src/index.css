@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: futura-pt-bold, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.demo-change {
+  position: static;
+  left: 0;
+  right: 0;
+  top: 20.07%;
+  bottom: 33.21%;
+
+  font-family: futura-pt-bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 64px;
+  /* or 110% */
+
+  text-align: center;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+
+  /* WoW Navy */
+
+  color: #2A408F;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 31px 0;
+}
